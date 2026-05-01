@@ -1,14 +1,10 @@
 <?php
-// ============================================================
-//  config.php — FINAL CONFIRMED SETTINGS
-//  Service: ORCL1PDB (confirmed working from your SQL*Plus test)
-// ============================================================
 
 error_reporting(0);
 ini_set('display_errors', '0');
 
-define('OCI_DSN',  '//localhost:1521/ORCL1PDB');  // CONFIRMED working service name
-define('OCI_USER', 'unireg');                       // NOT unireg1 — just unireg
+define('OCI_DSN',  '//localhost:1521/ORCL1PDB');  
+define('OCI_USER', 'unireg');                      
 define('OCI_PASS', 'unireg123');
 
 function getDB() {
