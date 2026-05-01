@@ -1,17 +1,3 @@
--- ============================================================
---  SETUP_FINAL.sql — ONE FILE COMPLETE SETUP
---  Run this ONCE on any PC to set up the entire database.
---
---  Step 1: Connect as unireg user:
---    sqlplus unireg/unireg123@localhost:1521/ORCL1PDB
---
---  Step 2: Run this file:
---    @C:\xampp\htdocs\unireg\SETUP_FINAL.sql
---
---  That's it. All tables, data, procedures, and fixed
---  trigger will be created in one shot.
--- ============================================================
-
 SET SERVEROUTPUT ON
 SET ECHO OFF
 SET FEEDBACK OFF
@@ -344,7 +330,7 @@ COMMIT;
 
 PROMPT   >> Seed data inserted OK
 
--- ── STEP 8: Final verification ───────────────────────────────
+-- ── STEP 8: Final verification ──────────────────────────────
 PROMPT
 PROMPT =====================================================
 PROMPT  VERIFICATION — All counts should match below
