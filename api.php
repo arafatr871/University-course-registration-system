@@ -1,9 +1,4 @@
 <?php
-// ============================================================
-//  api.php — All API endpoints
-//  FIXED: error suppression, OCI8 checks, proper JSON always
-// ============================================================
-
 // Step 1: suppress PHP errors BEFORE any output
 error_reporting(0);
 ini_set('display_errors', '0');
